@@ -4,4 +4,5 @@ cmake_minimum_required(VERSION 2.6.0)
 # C compiler on the system will be used
 project(myprogram C)
 
-add_executable(main.c)
+add_executable(server server.c)
+add_executable(client client.c)
